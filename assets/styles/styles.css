@@ -1,0 +1,60 @@
+body {
+	background-image: url("assets/img/background.png");
+	background-size: cover;
+}
+
+.navbar {
+	max-width: 70%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.links-container {
+	display: flex;
+	gap: 32px;
+	align-items: center;
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+}
+
+.hero-content {
+	display: flex;
+	max-width: 70%;
+	margin: 0 auto;
+	min-height: 75vh;
+	align-items: center;
+}
+
+.left-container {
+	width: 70%;
+	height: 100%;
+}
+.right-container {
+	width: 30%;
+	height: 100%;
+}
+
+.header-text {
+	margin: 0;
+	font-family: "Inter", sans-serif;
+	font-size: 54px;
+	font-weight: 800;
+}
+
+.hero-img {
+	max-height: 65vh;
+}
+
+.hero-button {
+	margin-top: 32px;
+	padding: 12px 30px;
+	border-radius: 6px;
+	background: #8c30f5;
+	color: white;
+	border: none;
+}
